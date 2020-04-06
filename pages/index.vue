@@ -4,7 +4,7 @@
       <h1>Read Data:</h1>
       <p> {{ fromApi }} </p>
       <br>
-      <button class="button">Post Data to API</button>
+      <button class="button" @click="postSomething()">Post Data to API</button>
     </div>
 
   </div>
